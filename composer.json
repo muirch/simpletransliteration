@@ -1,0 +1,25 @@
+{
+  "name": "sensitivesouris/simpletransliteration",
+  "description": "A simple library that transliterate text to selected language.",
+  "type": "library",
+  "require": {
+    "php": ">=7.1",
+    "ext-json": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Muir",
+      "email": "dev@sensou.me"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-0": {
+      "IvanMuir\\SimpleTransliteration\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  }
+}
